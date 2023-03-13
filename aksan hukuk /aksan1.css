@@ -1,0 +1,319 @@
+/* TAKİM CSS */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img {
+    max-width: 100%;
+}
+
+.team-header {
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.5)) , url("img/hero.jpg");
+    background-size: cover;
+}
+
+.team-title {
+    padding: 5rem 0;
+    margin-top: 50px;
+}
+
+.left-menu ul li {
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.left-menu ul li:hover {
+    background-color: pink;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: .5rem;
+}
+
+.search-btn {
+    background-color: transparent;
+}
+
+.search-btn:hover {
+    transition: .34s;
+    background-color: pink;
+    color: white;
+}
+
+.carousel-item {
+    color: white;
+    margin-top: 400px;
+ 
+}
+
+#navbar1{
+position: sticky;
+position: fixed;
+width: 100%;
+top: 0;
+  
+}
+
+
+/* ANASAYFA CSS */
+
+.anasayfa-header {
+    width: 100%; 
+    height: 750px;
+    background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.7)) , url("img/bina.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#carouselExampleDark {
+height: 500px;
+}
+
+.carousel-inner {
+ height: 600px;
+}
+
+
+.isaretresim {
+    color: white;
+    width: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.h4class{
+    color: brown;
+}
+
+.anasayfa-alan{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.5)) , url("img/bina.jpeg");
+    background-size: cover;
+    color: white;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+.anasayfa-alan-yazi {
+    padding: 80px;
+}
+.anasayfa-alan-button {
+    background-color: transparent;
+    color: rgb(188, 184, 184);
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.anasayfa-alan-button:hover {
+    transition: .34s;
+    background-color:grey;
+    color: white;
+
+}
+
+.anasayfa-blog {
+    font-size: 13px;
+}
+
+.blog-h6 {
+    margin-top: 1rem;
+    color: rgb(200, 198, 198);
+}
+
+.row col-4 a {
+    color: black;
+}
+
+.anasayfa-blog-row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hizmet-iletisim-resim{
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.7)) , url("img/bina.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    color: white;
+    justify-content: center;
+  
+}
+.hizmet-formlar{
+    width: 50%;
+    padding: 2rem;
+}
+
+.hizmet-iletisim {
+    color: rgb(148, 142, 142);
+}
+
+.hizmet-iletisim-row {
+    --bs-gutter-x: 0;
+}
+
+.son-kisim {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+footer {
+    background-color: rgb(15, 1, 43);
+    color: white;
+    font-size: 12px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    transition: .34s;
+    color: grey;
+}
+
+.social-img {
+    width: 150px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.social-img a:hover{
+    background-color: darkgray;
+}
+.footer2{
+    color: white;
+    background-color: rgb(15, 1, 43);
+}
+
+.footer-2 {
+    margin-left: 100px;
+}
+
+.form-control {
+    background-color: rgb(15, 1, 43);
+}
+
+#button-addon2 {
+    color: white;
+    
+}
+.bs-btn-border-color {
+color: white;
+} 
+
+#button-addon2:hover {
+    background-color: white;
+    color: black;
+}
+
+.anasayfa-blog a {
+    color: rgb(24, 17, 50);
+    text-decoration: none;
+}
+
+.anasayfa-blog a:hover {
+    transition: .34s;
+    color: rgb(130, 12, 12);
+}
+
+@media screen and (max-width:500px) {
+    .hizmet-iletisim {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .footer-hizmetler {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    .footer-2 {
+       margin-left: 0;
+       
+    }
+}
+
+
+
+
+
+
+
+/* *****Hizmet Noktalarımız css***** */
+
+.hizmet-noktalarimiz-header {
+    width: 100%;
+    height: 500px;
+    background:linear-gradient(rgb(1, 4, 24), rgba(0,0,0,.5)) , url("https://aksan.av.tr/Photos/PageContent/thumbs/7b487e4b.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+.noktalar-yazi {
+    width: 100%;
+    height: 300px;
+}
+
+.istanbul {
+    
+    width: 100%;
+}
+.istanbul1{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.5)) , url("img/köprü.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+ 
+
+}
+.istanbul2{
+    background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.5)) , url("img/teknopark.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+ 
+}
+/* .row-istanbul {
+    --bs-gutter-x: none;
+}
+.row {
+    --bs-gutter-x: none;
+} */
+
+
+
+@media only screen and (max-width: 500px) {
+  .row-istanbul {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+    .hizmet-noktalarimiz-header {
+        height: 400px;
+  
+    }
+    
+}
+
+
